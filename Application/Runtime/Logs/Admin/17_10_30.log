@@ -1,0 +1,41 @@
+[ 2017-10-30T21:24:26+08:00 ] ::1 /QASystem/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.559032s ]
+
+[ 2017-10-30T21:24:28+08:00 ] ::1 /QASystem/admin.php/Admin/Index/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-30T21:24:45+08:00 ] ::1 /QASystem/admin.php/Admin/Index/CheckLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `admininfo` [ RunTime:0.1670s ]
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given F:\phpStudy\WWW\QASystem\ThinkPHP\Library\Think\Db\Driver.class.php 第 1031 行.
+NOTIC: [2] addslashes() expects parameter 1 to be string, array given F:\phpStudy\WWW\QASystem\ThinkPHP\Library\Think\Db\Driver.class.php 第 1031 行.
+SQL: SELECT * FROM `admininfo` WHERE `account` = '' AND `password` = ''  [ RunTime:0.0470s ]
+
+[ 2017-10-30T21:24:46+08:00 ] ::1 /QASystem/admin.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-30T21:24:50+08:00 ] ::1 /QASystem/admin.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'qacommunity.userinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `userinfo`
+
+[ 2017-10-30T21:24:58+08:00 ] ::1 /QASystem/admin.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'qacommunity.userinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `userinfo`
+

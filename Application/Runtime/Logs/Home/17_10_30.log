@@ -1,0 +1,12 @@
+[ 2017-10-30T21:24:29+08:00 ] ::1 /QASystem/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.559032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'qacommunity.userinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `userinfo`
+ERR: 1146:Table 'qacommunity.userinfo' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `userinfo`
+
